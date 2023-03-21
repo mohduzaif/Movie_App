@@ -36,3 +36,83 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Our CSS  */
+.banner-card {
+  background-color: white;
+  width: 100vw;
+}
+
+.banner-img {
+  height: 70vh;
+  width: 100%;
+}
+
+.banner-title {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 19rem;
+  left: 2rem;
+}
+
+.banner-text {
+  color: white;
+  position: absolute;
+  top: 22rem;
+  left: 2rem;
+}
+
+/* .trending {
+} */
+
+.movies-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.movie-card {
+  width: 20vw;
+  margin: 1rem;
+}
+
+.movie-img {
+  height: 50vh;
+  width: 100%;
+}
+
+.movie-title {
+  color: white;
+  position: absolute;
+  left: .5rem;
+  top: 1rem;
+}
+
+.movie-button {
+  position: absolute; 
+  top: 82%;
+} 
+
+
+.button-wrapper, .trending{
+  display: flex;
+  justify-content: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tableContent {
+  text-align: center;
+}
