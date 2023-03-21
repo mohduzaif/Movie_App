@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "mohduzaif.github.io/movie/precache-manifest.f503f7af7c371681ddf89caa7617fb78.js"
+  "/Movie_App/precache-manifest.a3e293ce07e2aa6ae122267d2d2d8f1f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("mohduzaif.github.io/movie/index.html", {
+workbox.routing.registerNavigationRoute("/Movie_App/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
