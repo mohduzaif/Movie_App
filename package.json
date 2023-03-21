@@ -1,5 +1,4 @@
 {
-  "homepage": "http://mohduzaif.github.io/Movie_App",
   "name": "movie",
   "version": "0.1.0",
   "private": true,
@@ -17,8 +16,6 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "predeploy": "npm run build", 
-    "deploy": "gh-pages -d build",
     "build": "react-scripts --openssl-legacy-provider build"
   },
   "eslintConfig": {
